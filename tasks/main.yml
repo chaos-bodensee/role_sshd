@@ -1,4 +1,16 @@
 ---
+- name: deprecation warning
+  pause:
+    prompt: |
+    Hi there
+    These roles here have some changes that are not backwards compatible and have therefore moved to this git repository
+
+    https://github.com/roles-ansible/role_sshd.git
+
+    Please have a look at the new config layout and update this role!
+
+    Thanks <3
+
 - include_tasks: versioncheck.yml
   when: submodules_versioncheck|bool
 
