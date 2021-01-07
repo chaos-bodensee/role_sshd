@@ -22,7 +22,7 @@
     sshd_allow_groups: '{{ sshd_default_allowed_groups + users.keys() | default({}) | sort }}'
 
 - name: Copy sshd configuration
-  become: yes
+  become: true
   template:
     src: sshd_config.j2
     dest: '/etc/ssh/sshd_config'
