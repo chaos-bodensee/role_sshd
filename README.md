@@ -22,7 +22,7 @@ It is highly recomended to use this role together with a role to manage users an
 The following roles are tested in combination and work well - at least for the user [DO1JLR](https://github.com/do1jlr):
  - [github.com/chaos-bodensee/role-manage_users](https://github.com/chaos-bodensee/role-manage_users.git)
  - [github.com/chaos-bodensee/role-ssh_authorized_keys](https://github.com/chaos-bodensee/role-ssh_authorized_keys.git)
- - [github.com/roles-ansible/role_sshd-legacy](https://github.com/roles-ansible/ansible_role_sshd) *(this one)*
+ - [https://github.com/roles-ansible/ansible_role_sshd](https://github.com/roles-ansible/ansible_role_sshd) *(the new one)*
 
 
  Some Variables explained
