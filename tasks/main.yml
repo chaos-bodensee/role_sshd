@@ -1,4 +1,8 @@
 ---
+- name: ATTENTION, this role moved
+  fail:
+    msg: This role moved to https://github.com/roles-ansible/ansible_role_sshd.git
+
 - name: perform versionscheck
   ansible.builtin.include_tasks: versioncheck.yml
   when: submodules_versioncheck|bool
