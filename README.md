@@ -9,7 +9,7 @@ ssh-keygen -t ed25519
 
 # Deprecation warning
 These roles here have some changes that are not backwards compatible and have therefore moved to this git repository:
-[github.com/roles-ansible/role_sshd](https://github.com/roles-ansible/role_sshd.git)
+[github.com/roles-ansible/ansible_role_sshd](https://github.com/roles-ansible/ansible_role_sshd.git)
 
 
 Please have a look at the new syntax of the variables and use it there.
@@ -22,7 +22,7 @@ It is highly recomended to use this role together with a role to manage users an
 The following roles are tested in combination and work well - at least for the user [DO1JLR](https://github.com/do1jlr):
  - [github.com/chaos-bodensee/role-manage_users](https://github.com/chaos-bodensee/role-manage_users.git)
  - [github.com/chaos-bodensee/role-ssh_authorized_keys](https://github.com/chaos-bodensee/role-ssh_authorized_keys.git)
- - [github.com/roles-ansible/role_sshd-legacy](https://github.com/roles-ansible/role_sshd-legacy.git) *(this one)*
+ - [github.com/roles-ansible/role_sshd-legacy](https://github.com/roles-ansible/ansible_role_sshd) *(this one)*
 
 
  Some Variables explained
